@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+  }
+  body {
+    font: normal small-caps normal 8px/1.2 Georgia;
+  }
+
+  /* is the same as:
+
+  body {
+    font-family: Georgia;
+    line-height: 1.4;
+    font-weight: normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+    font-size: 14px;
+  }
+   */
+
+  header {
+      background-color:
+      padding: 2px;
+      border: 5px solid;
+      margin: 0px;
+      font-size: 20px;
+      display: block;
+  }
+  nav {
+      float: left;
+  }
+  nav ul {
+      padding: ;
+      float: left;
+      border-bottom: ;
+      list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+  a {
+      color: ;
+  }
+  section {
+      width: 73%;
+      display: inline-block;
+      float: left;
+  }
+  /*the greyBackground is a "class" - a label we can apply to any html tag we want
+  because it's a label I created, I have to put a . in front of it, so css knows that it isn't a html tag*/
+  .greyBackground {
+    background-color: #aaaaaa;
+  }
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:black;
+      padding:;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      color:;
+      font-size: 12px;
+      clear: both;
+      display: block;
+  }
+  html {
+  background-color: #2a2843;
+}
+.module {
+  border-image-source: url(wat.png);
+  border-image-slice: 20;
+}
